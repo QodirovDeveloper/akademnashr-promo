@@ -1,3 +1,4 @@
+/* SITE-HEADER */
 .sitenav-list
 a
 {
@@ -5,6 +6,7 @@ a
   color: #000;
 }
 
+/* SITENAV  */
 .sitenav-list
 {
   list-style: none;
@@ -20,6 +22,8 @@ a
   text-decoration: none;
   color: #000;
 }
+
+/* MAIN-LINK */
 .register
 a
 {
@@ -28,6 +32,7 @@ a
   color: #FFFFFF;
 }
 
+/* HERO */
 .rectangle
 {
   background-color: #252420;
@@ -41,6 +46,7 @@ a
   background-color: #FF7500;
 }
 
+/* FEATURES */
 .features-heading
 {
   width: 435px;
