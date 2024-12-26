@@ -1,0 +1,104 @@
+.sitenav-list
+a
+{
+  background-color: #ffffff;
+  color: #000;
+}
+
+.sitenav-link
+{
+  font-size: 13px;
+  line-height: 15px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #000;
+}
+.register
+a
+{
+  text-decoration: none;
+  background-color: #FF7500;
+  color: #FFFFFF;
+}
+
+.rectangle
+{
+  background-color: #252420;
+  color: #FFFFFF;
+}
+
+.orange-line
+{
+  width: 80px;
+  height: 3px;
+  background-color: #FF7500;
+}
+
+.features-heading
+{
+  width: 435px;
+  font-size: 72px;
+  line-height: 1.2;
+  letter-spacing: 0.5px;
+}
+
+.primary-button
+a
+{
+  text-decoration: none;
+  background-color: #FF7500;
+  color: #FFFFFF;
+}
+
+.feature-cursor
+img
+{
+  background-color: #FF750033;
+}
+
+.feature-sparkles
+img
+{
+  background-color: #FF750033;
+}
+
+.feature-lightning-bolt
+img
+{
+  background-color: #FF750033;
+}
+
+.sale-bg
+{
+  background-color: #252420;
+  color: #FFFFFF;
+}
+
+.aksiya-kitob
+{
+  color: #FF7500;
+}
+
+.aksiya-som
+{
+  color: #FF7500;
+}
+
+.primary-button
+a
+{
+  background-color: #FF7500;
+  color: #FFFFFF;
+}
+
+.site-footer-bottom
+a
+{
+  font-size: 16px;
+  font-weight: 400;
+  text-decoration: none;
+  background-color: #FFFFFF;
+  color: #000;
+}
