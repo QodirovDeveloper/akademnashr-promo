@@ -1,3 +1,11 @@
+body
+{
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: "Roboto", Arial, sans-serif;
+  letter-spacing: 0.5px;
+}
+
 /* SITE-HEADER */
 .sitenav-list
 a
@@ -27,9 +35,11 @@ a
 .register
 a
 {
-  text-decoration: none;
+  font-size: 13px;
+  line-height: 15px;
   background-color: #FF7500;
   color: #FFFFFF;
+  text-decoration: none;
 }
 
 /* HERO */
@@ -44,6 +54,16 @@ a
   width: 80px;
   height: 3px;
   background-color: #FF7500;
+}
+.hero-heading
+{
+  width: 440px;
+  font-size: 72px;
+  letter-spacing: 0.5px;
+  font-family: "Roboto Condensed", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
 }
 
 /* FEATURES */
@@ -74,6 +94,14 @@ img
   background-color: #FF750033;
 }
 
+.feature-title
+{
+  font-size: 24px;
+  line-height: 1.2;
+  letter-spacing: 0.5px;
+  font-family: "Roboto Condensed", "Roboto", "Arial", sans-serif;
+}
+
 .feature-sparkles
 img
 {
@@ -90,6 +118,13 @@ img
 {
   background-color: #252420;
   color: #FFFFFF;
+}
+
+.promo-heading
+{
+  font-size: 40px;
+  line-height: 48px;
+  font-family: "Roboto Condensed", "Roboto", "Arial", sans-serif;
 }
 
 .aksiya-kitob
@@ -112,7 +147,8 @@ a
 .site-footer-bottom
 a
 {
-  font-size: 16px;
+  width: 224px;
+  line-height: 19px;
   font-weight: 400;
   text-decoration: none;
   background-color: #FFFFFF;
