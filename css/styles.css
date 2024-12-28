@@ -6,6 +6,35 @@ body
   letter-spacing: 0.5px;
 }
 
+.site-header
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+}
+
+.opasity-logo
+{
+  transition: 0.4s;
+}
+
+.opasity-logo:hover
+{
+  opacity: 0.8;
+}
+
+.opasity-logo:active
+{
+  opacity: 0.6;
+}
+
+.site-header-actions
+{
+  display: flex;
+  align-items: center;
+}
+
 /* SITE-HEADER */
 .sitenav-list
 a
@@ -17,7 +46,29 @@ a
 /* SITENAV  */
 .sitenav-list
 {
+  display: flex;
   list-style: none;
+}
+
+.sitenav-link-hover
+{
+  transition:color 0,4s ease,
+    opacity 0.4s ease;
+}
+
+.sitenav-link-hover
+{
+  transition: 0.4s;
+}
+
+.sitenav-link-hover:hover
+{
+  color: #FF7500;
+}
+
+.sitenav-link-hover:active
+{
+  opacity: 0.6;
 }
 
 .sitenav-link
@@ -42,9 +93,27 @@ a
   text-decoration: none;
 }
 
+.main-link
+{
+  transition: opacity 0.4s ease;
+}
+
+.main-link:hover
+{
+  opacity: 0.8;
+}
+
+.main-link:active
+{
+  opacity: 0.6;
+}
+
 /* HERO */
 .rectangle
 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   background-color: #252420;
   color: #FFFFFF;
 }
@@ -62,7 +131,7 @@ a
   letter-spacing: 0.5px;
   font-family: "Roboto Condensed", serif;
   font-optical-sizing: auto;
-  font-weight: 700;
+  font-weight: 700px;
   font-style: normal;
 }
 
@@ -73,6 +142,12 @@ a
   font-size: 72px;
   line-height: 1.2;
   letter-spacing: 0.5px;
+}
+
+.feature-list
+{
+  display: flex;
+  justify-content: space-between;
 }
 
 .primary-button
@@ -116,6 +191,9 @@ img
 
 .sale-bg
 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   background-color: #252420;
   color: #FFFFFF;
 }
@@ -144,12 +222,59 @@ a
   color: #FFFFFF;
 }
 
+.site-footer-top
+{
+  display: flex;
+  justify-content: space-between;
+align-items: center;
+}
+
+.site-footer-link-rang
+{
+  transition:color 0,4s ease,
+    opacity 0.4s ease;
+}
+
+.site-footer-link-rang
+{
+  transition: 0.4s;
+}
+
+.site-footer-link-rang:hover
+{
+  color: #FF7500;
+}
+
+.site-footer-link-rang:active
+{
+  opacity: 0.6;
+}
+
+
+
+.site-footer-socials
+{
+  display: flex;
+  justify-content: center;
+}
+
+.site-footer-socials
+a
+{
+  color:#252420;
+}
+
+
 .site-footer-bottom
+{
+  display: flex;
+}
+.site-footer-links
 a
 {
   width: 224px;
   line-height: 19px;
-  font-weight: 400;
+  font-weight: 400px;
   text-decoration: none;
   background-color: #FFFFFF;
   color: #000;
